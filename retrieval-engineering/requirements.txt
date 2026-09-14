@@ -1,0 +1,17 @@
+# Core
+numpy>=1.24.0
+pydantic>=2.0.0
+
+# Env var loading (used if you switch to OpenAIEmbeddingProvider via Phase 1)
+python-dotenv>=1.0.1
+
+# Testing
+pytest>=8.0.0
+
+# --- Optional: real embeddings, reused from foundations/embedding ---
+# This package's embedder wraps foundations_embedding's EmbeddingProvider.
+# Install one of these (or set OPENAI_API_KEY) to upgrade from the
+# offline, deterministic hash-based fallback to real semantic embeddings.
+# See foundations/embedding/requirements.txt.
+# sentence-transformers>=2.7.0
+# openai>=1.30.0

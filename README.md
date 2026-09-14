@@ -10,6 +10,13 @@ This is a production-oriented journey through modern AI engineering starting wit
 ### Implement document ingestion pipeline
 
 ### Add Production RAG Pipeline
+
+**Implemented so far:** [`foundations/embedding`](foundations/embedding)
+(embedding fundamentals + vector similarity search) and
+[`retrieval-engineering`](retrieval-engineering) (document ingestion,
+chunking, metadata, local vector storage, semantic retrieval, and
+retrieval evaluation — see its README for details).
+
 ## Phase 2
 
 ### Add Hybrid Retrieval

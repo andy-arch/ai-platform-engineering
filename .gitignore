@@ -1,0 +1,17 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+*.egg-info
+
+# Generated local vector index (rebuild with scripts/ingest.py)
+retrieval-engineering/data/index/
+
+# Environment / secrets
+.env

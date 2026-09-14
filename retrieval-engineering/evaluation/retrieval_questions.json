@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How does EKS handle cluster authentication?",
+    "expected_sources": ["aws/eks.md"],
+    "topic": "eks"
+  },
+  {
+    "question": "What is IAM used for in AWS and how do policies grant permissions?",
+    "expected_sources": ["aws/iam.md"],
+    "topic": "iam"
+  },
+  {
+    "question": "What is a VPC and how do subnets control routing?",
+    "expected_sources": ["aws/vpc.md"],
+    "topic": "vpc"
+  },
+  {
+    "question": "How does S3 store objects and what consistency guarantees does it offer?",
+    "expected_sources": ["aws/s3.md"],
+    "topic": "s3"
+  },
+  {
+    "question": "How does a Kubernetes Deployment manage pod replicas and rolling updates?",
+    "expected_sources": ["kubernetes/deployments.md"],
+    "topic": "deployments"
+  },
+  {
+    "question": "What does a Kubernetes Service do and how does kube-proxy route traffic to it?",
+    "expected_sources": ["kubernetes/services.md"],
+    "topic": "services"
+  },
+  {
+    "question": "How does Kubernetes Ingress route external traffic into the cluster?",
+    "expected_sources": ["kubernetes/ingress.md"],
+    "topic": "ingress"
+  },
+  {
+    "question": "How does Kubernetes RBAC control what a user is allowed to do?",
+    "expected_sources": ["kubernetes/rbac.md"],
+    "topic": "rbac"
+  },
+  {
+    "question": "How does JWT authentication work and what should an API gateway validate?",
+    "expected_sources": ["api-gateway/jwt.md"],
+    "topic": "jwt"
+  },
+  {
+    "question": "What is the OAuth 2.0 authorization code flow?",
+    "expected_sources": ["api-gateway/oauth.md"],
+    "topic": "oauth"
+  },
+  {
+    "question": "How does mutual TLS authenticate both the client and the server?",
+    "expected_sources": ["api-gateway/mtls.md"],
+    "topic": "mtls"
+  },
+  {
+    "question": "How does rate limiting protect an API gateway from too many requests?",
+    "expected_sources": ["api-gateway/rate-limiting.md"],
+    "topic": "rate-limiting"
+  }
+]

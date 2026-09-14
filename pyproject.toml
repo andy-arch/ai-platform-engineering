@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-platform-engineering"
+version = "0.1.0"
+description = "Production-oriented AI platform engineering monorepo (embeddings, retrieval, RAG, agents)."
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = [
+    "foundations_embedding",
+    "retrieval_engineering",
+    "retrieval_engineering.models",
+    "retrieval_engineering.ingestion",
+    "retrieval_engineering.embeddings",
+    "retrieval_engineering.vector_store",
+    "retrieval_engineering.retrieval",
+    "retrieval_engineering.evaluation",
+]
+
+[tool.setuptools.package-dir]
+foundations_embedding = "foundations/embedding"
+retrieval_engineering = "retrieval-engineering"
+
+[tool.pytest.ini_options]
+testpaths = ["foundations", "retrieval-engineering"]
