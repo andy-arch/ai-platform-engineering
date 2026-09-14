@@ -1,0 +1,14 @@
+# Core
+numpy>=1.24.0
+
+# Local embedding models (no API key required)
+sentence-transformers>=2.7.0
+
+# Optional: OpenAI embeddings provider
+openai>=1.30.0
+
+# Env var loading
+python-dotenv>=1.0.1
+
+# Testing
+pytest>=8.0.0
